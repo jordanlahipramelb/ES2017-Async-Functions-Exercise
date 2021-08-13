@@ -3,10 +3,10 @@ let faveNum = 7;
 
 // 1.
 
-// async function getFaveNum(num) {
-//   let res = await axios.get(`${baseURL}/${num}?json`);
-//   console.log(res.data.text);
-// }
+async function getFaveNum(num) {
+  let res = await axios.get(`${baseURL}/${num}?json`);
+  console.log(res.data.text);
+}
 
 // getFaveNum(7);
 /////////////////////////////////////////
